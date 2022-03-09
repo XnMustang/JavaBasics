@@ -10,6 +10,7 @@ import java.lang.reflect.Method;
  * 在运行时获取一个类的CLass对象
  * 在运行时构造一个类的实力化对象
  * 在运行时获取一个类的所有信息：变量、方法、构造器、注解
+ *
  */
 public class SmallPineapple {
 
