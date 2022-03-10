@@ -14,6 +14,6 @@ import java.lang.annotation.Target;
 @Target(value = ElementType.TYPE)
 public @interface MyScope {
 
-    public String value() default ScopeType.SINGLETON;
+    String value() default ScopeType.SINGLETON;
 
 }

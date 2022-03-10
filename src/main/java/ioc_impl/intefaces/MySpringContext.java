@@ -28,7 +28,7 @@ public interface MySpringContext {
      * @param   cls  beanClass
      * @return  bean实例
      */
-    Object getBean(Class cls);
+    Object getBean(Class cls) throws Exception;
 
     /**
      * 获取上下文的属性
@@ -58,6 +58,14 @@ public interface MySpringContext {
      * @param obj   bean实例
      */
     void setBean(String beanName, Object obj);
+
+    /**
+     * 设置bean
+     *
+     * @param clz bean类实例
+     * @param obj
+     */
+    void setBean(Class clz, Object obj);
 
     /**
      * 打印IOC容器概览

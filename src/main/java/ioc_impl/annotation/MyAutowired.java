@@ -12,6 +12,6 @@ import java.lang.annotation.Target;
 @Target(value = ElementType.TYPE) // @Target：注解的作用目标  TYPE：可作用于类、接口、注解、枚举
 public @interface MyAutowired {
 
-    public String value() default "";
+    String value() default "";
 
 }

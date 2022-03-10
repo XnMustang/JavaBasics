@@ -14,8 +14,8 @@ import java.lang.annotation.Target;
 @Target(value = ElementType.TYPE)
 public @interface MyComponent {
 
-    public String name() default "";
+    String name() default "";
 
-    public String scope() default ScopeType.SINGLETON;
+    String scope() default ScopeType.SINGLETON;
 
 }
